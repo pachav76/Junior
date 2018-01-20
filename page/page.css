@@ -1,0 +1,46 @@
+.page-alternate {
+  background: #26292E;
+    padding: 100px 0;
+    position: relative;
+    z-index: 99;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1270px !important;
+}
+
+.title-page {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.title-description {
+    font-size: 26px;
+
+    a {
+        color: #DE5E60;
+    }
+
+    a:hover {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.title {
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.resume {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 970px;
+}
